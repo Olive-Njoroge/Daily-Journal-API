@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Olive-Njoroge/Daily-Journal-API/issues"
   },
-  "homepage": "https://github.com/Olive-Njoroge/Daily-Journal-API#readme"
+  "homepage": "https://github.com/Olive-Njoroge/Daily-Journal-API#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
 }
