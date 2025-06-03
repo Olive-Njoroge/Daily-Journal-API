@@ -12,7 +12,7 @@ app.use(express.json());
 const mongoUri = 'mongodb://localhost:27017/journaldb';
 
 mongoose.connect(mongoUri, {
-    useNewParser: true,
+    useNewURLParser: true,
     useUnifiedTopology: true
 }).then(() => console.log("Connected to mongoDB"))
   .catch(err => console.error("Mongodb connection error", err));
