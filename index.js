@@ -3,16 +3,18 @@ const mongoose = require('mongoose');
 const journal = require('./routes');
 const cors = require('cors');
 
+//Initialize app
+const app = express();
 
+//Create a server
+const PORT = 3000;
+
+//Create middleware
 app.use(cors({
   origin: 'http://localhost:5173', // your Vite frontend URL
 }));
 
-//Create a server
-const app = express();
-const PORT = 3000;
 
-//Create middleware
 app.use(express.json());
 
 //fire up mongodb
