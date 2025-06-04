@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const journal = require('./routes');
 
 //Create a server
 const app = express();
@@ -16,6 +17,8 @@ mongoose.connect(mongoUri, {
     useUnifiedTopology: true
 }).then(() => console.log("Connected to mongoDB"))
   .catch(err => console.error("Mongodb connection error", err));
+
+app.use('/', journal);
 
 //Listener
 app.listen(PORT, () => {
