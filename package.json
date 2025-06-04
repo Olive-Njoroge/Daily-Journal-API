@@ -4,7 +4,7 @@
   "description": "\"# Daily-Journal-API\"",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Olive-Njoroge/Daily-Journal-API#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "mongoose": "^8.15.1",
     "nodemon": "^3.1.10"
