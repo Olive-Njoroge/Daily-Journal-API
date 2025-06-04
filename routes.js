@@ -1,5 +1,5 @@
 const express = require ('express');
-const journals = require ('./journal');
+const Journal = require ('./journal');
 const router = express.Router();
 
 //Create a new entry
