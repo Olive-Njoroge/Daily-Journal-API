@@ -1,6 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const journal = require('./routes');
+const cors = require('cors');
+
+
+app.use(cors({
+  origin: 'http://localhost:5173', // your Vite frontend URL
+}));
 
 //Create a server
 const app = express();
