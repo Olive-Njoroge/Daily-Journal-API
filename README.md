@@ -1,4 +1,4 @@
-# Journal App — My First Fullstack Application 🎉
+# Journal App — My First Fullstack Application 🎉😭😭
 
 ## Overview
 
